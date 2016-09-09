@@ -117,14 +117,14 @@ if ! shopt -oq posix; then
 fi
 
 
-alias apt4 = "sudo apt update && dist-upgrade && autoremove && autoclean"
+alias apt4='sudo apt update && dist-upgrade && autoremove && autoclean'
 alias fucking='sudo'
 
-alias aptu='sudo apt updte && sudo apt upgrade -y'
+alias aptu='sudo apt update && sudo apt upgrade -y'
 
-alias gimme='sudo apt install'
+alias gimmie='sudo apt install'
 
 alias isthere='apt-cache search'
 
 alias die='shutdown 0'
-alias fuck="sudo !!"
+alias fuck='sudo !!'
