@@ -7,7 +7,6 @@ case $- in
     *i*) ;;
       *) return;;
 esac
-
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -18,7 +17,6 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
-
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
@@ -39,7 +37,6 @@ fi
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
-
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
@@ -128,3 +125,6 @@ alias isthere='apt-cache search'
 
 alias die='shutdown 0'
 alias fuck='sudo !!'
+alias binja='/home/vopi/Downloads/binaryninja/binaryninja'
+alias hotpatcher='~/Documents/c++/hotpatch/src/hotpatcher'
+alias apt='aptitude'
